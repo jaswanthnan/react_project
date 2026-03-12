@@ -1,0 +1,128 @@
+body{
+  background:#f4f6f9;
+  font-family:Segoe UI;
+}
+
+/* Navbar */
+
+.navbar{
+  background:#1e293b;
+  padding:16px 40px;
+}
+
+.navbar a{
+  color:white;
+  margin-right:25px;
+  text-decoration:none;
+  font-weight:500;
+}
+
+/* Home */
+
+.home{
+  text-align:center;
+  margin-top:120px;
+}
+
+/* Dashboard */
+
+.dashboard{
+  padding:40px;
+}
+
+/* Center Header */
+
+.header-section{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  margin-bottom:30px;
+}
+
+/* Title */
+
+.title{
+  font-size:32px;
+  font-weight:600;
+  margin-bottom:20px;
+}
+
+/* Add Button */
+
+.add-btn{
+  background:#2563eb;
+  color:white;
+  border:none;
+  padding:12px 24px;
+  border-radius:6px;
+  cursor:pointer;
+  font-size:15px;
+  margin-bottom:20px;
+}
+
+/* Filter Buttons */
+
+.filter-container{
+  display:flex;
+  gap:15px;
+  justify-content:center;
+  margin-bottom:30px;
+}
+
+.filter-btn{
+  border:none;
+  padding:8px 18px;
+  border-radius:6px;
+  color:white;
+  cursor:pointer;
+  font-size:14px;
+}
+
+.active-filter{
+  background:#16a34a;
+}
+
+.inactive-filter{
+  background:#f97316;
+}
+
+.all-filter{
+  background:#3b82f6;
+}
+
+/* Table */
+
+.table{
+  height:450px;
+  width:100%;
+  background:white;
+  padding:10px;
+  border-radius:8px;
+  box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Action Buttons */
+
+.action-buttons{
+  display:flex;
+  gap:8px;
+}
+
+.edit-btn{
+  background:#3b82f6;
+  color:white;
+  border:none;
+  padding:4px 10px;
+  border-radius:4px;
+  cursor:pointer;
+}
+
+.delete-btn{
+  background:#ef4444;
+  color:white;
+  border:none;
+  padding:4px 10px;
+  border-radius:4px;
+  cursor:pointer;
+}
